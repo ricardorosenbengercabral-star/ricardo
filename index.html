@@ -177,14 +177,16 @@
         <svg viewBox="0 0 260 260" role="img" aria-labelledby="disco-title disco-desc">
           <title id="disco-title">Disco de Newton</title>
           <desc id="disco-desc">Um disco dividido em sete cores do arco-íris que, ao girar rapidamente, parece branco, mostrando que a luz branca é a soma de todas as cores.</desc>
-          <g id="newton-disc" transform="translate(130,130)">
-            <path d="M0 0 L0 -100 A100 100 0 0 1 87 -50 Z" fill="#E11D48"/>
-            <path d="M0 0 L87 -50 A100 100 0 0 1 87 50 Z" fill="#F59E0B"/>
-            <path d="M0 0 L87 50 A100 100 0 0 1 0 100 Z" fill="#FACC15"/>
-            <path d="M0 0 L0 100 A100 100 0 0 1 -87 50 Z" fill="#22C55E"/>
-            <path d="M0 0 L-87 50 A100 100 0 0 1 -87 -50 Z" fill="#0EA5E9"/>
-            <path d="M0 0 L-87 -50 A100 100 0 0 1 -35 -95 Z" fill="#4338CA"/>
-            <path d="M0 0 L-35 -95 A100 100 0 0 1 0 -100 Z" fill="#7C3AED"/>
+          <g transform="translate(130,130)">
+            <g id="newton-disc">
+              <path d="M0 0 L0 -100 A100 100 0 0 1 87 -50 Z" fill="#E11D48"/>
+              <path d="M0 0 L87 -50 A100 100 0 0 1 87 50 Z" fill="#F59E0B"/>
+              <path d="M0 0 L87 50 A100 100 0 0 1 0 100 Z" fill="#FACC15"/>
+              <path d="M0 0 L0 100 A100 100 0 0 1 -87 50 Z" fill="#22C55E"/>
+              <path d="M0 0 L-87 50 A100 100 0 0 1 -87 -50 Z" fill="#0EA5E9"/>
+              <path d="M0 0 L-87 -50 A100 100 0 0 1 -35 -95 Z" fill="#4338CA"/>
+              <path d="M0 0 L-35 -95 A100 100 0 0 1 0 -100 Z" fill="#7C3AED"/>
+            </g>
           </g>
         </svg>
         <button id="btn-girar-disco" type="button" class="btn btn-small">Girar o disco</button>
